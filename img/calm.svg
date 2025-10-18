@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="100" cy="100" r="78" fill="yellow" stroke="black" stroke-width="3"/>
+
+  <!-- Eyes: soft and relaxed -->
+  <g class="eyes">
+    <ellipse cx="70" cy="85" rx="8" ry="10" fill="black" opacity="0.9"/>
+    <ellipse cx="130" cy="85" rx="8" ry="10" fill="black" opacity="0.9"/>
+  </g>
+
+  <!-- Gentle smile -->
+  <path d="M70 120 Q100 145 130 120"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Soft eyelids for relaxed look -->
+  <path d="M62 75 Q70 70 78 75" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M122 75 Q130 70 138 75" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</svg>
